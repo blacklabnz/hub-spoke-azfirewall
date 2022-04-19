@@ -8,6 +8,10 @@ terraform {
       source  = "databrickslabs/databricks"
       version = "0.5.1"
     }
+    external = {
+      source  = "hashicorp/external"
+      version = "2.2.2"
+    }
   }
 }
 
